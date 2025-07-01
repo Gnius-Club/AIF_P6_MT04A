@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P6-TM04A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 4A 6to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos de Aprendizaje</strong>
+                                    <ul>
+                                        <li>Que los estudiantes comprendan que el XGO no solo se mueve, sino que también puede manipular objetos con su brazo robótico. Que aprendan los comandos de Python para controlar el brazo y la pinza, y entiendan conceptualmente qué son la cinemática y el espacio de trabajo. Finalmente, que diseñen una secuencia para alcanzar y agarrar un objeto, documentándola en un "Plan de Manipulación".</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase</strong>
+                                    <ul>
+                                        <li>⚡Saludo de I.A. con todos</li>
+                                        <li>⚡A.I. GYM (Análisis Profundo)</li>
+                                        <li>⚡VIBE CODING (Exploración Individual de Tareas de Alcance)</li>
+                                        <li>⚡ANÁLISIS DE CÓDIGO Y PLANIFICACIÓN DE PRUEBAS</li>
+                                        <li>⚡GNIUS STORM (Cierre de Sesión A)</li>
+                                    </ul>
+                                    <strong>Entregable Clave</strong>
+                                    <ul>
+                                        <li>Plan de Manipulación documentado por cada equipo, listo para la Sesión 4B.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Acceso al entorno de programación Python.</li>
+                                        <li>Robots XGO V2 (1 por cada 4 estudiantes), cargados.</li>
+                                        <li>Objetos pequeños para planificar el agarre (ej. cubos de LEGO, pompones).</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Chat de Agente Gnius (Xolo) activo.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna)</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet y entorno Python.</li>
+                                                <li>Asegurar carga de los robots XGO V2.</li>
+                                                <li>Tener la presentación de diapositivas lista.</li>
+                                                <li>Probar el chat Agente Gnius (Xolo).</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización</strong> Revisar el flujo de la sesión, diálogos y tiempos.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 2 minutos</h2>
+                <p><strong>Propósito:</strong> Crear un ambiente acogedor y guiar a los estudiantes para que activen y personalicen la interacción con el agente de IA, Xolo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción Inicial ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) Da la bienvenida a los estudiantes y guíalos para que activen a Xolo en el chat.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, Operadores! 👋 ¡Bienvenidos a una nueva misión! Hoy vamos a darle 'manos' al XGO con su brazo robótico. Antes de empezar, vamos a activar a nuestro amigo Xolo. Por favor, salúdenlo en el chat y díganle su nombre y cuáles son sus gustos e intereses. Por ejemplo 'Hola Xolo, soy David y me gusta construir con LEGOs y los juegos de estrategia'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Monitoreo y Verificación ⏰ 1 minuto</h3>
+                            <p>Asegúrate de que todos los estudiantes hayan recibido una respuesta de Xolo para continuar.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente, Xolo está listo para operar con ustedes! Asegúrense de que todos hayan escrito su nombre y sus gustos. Si Xolo no les ha respondido, ¡avísenme!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2 A.I. GYM (Análisis Profundo) ⏰ 12 minutos</h2>
+                <p><strong>Propósito</strong> Introducir el brazo robótico del XGO, los conceptos de cinemática y espacio de trabajo, y los nuevos comandos de Python para la manipulación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Presentación Conceptual y Comando para Xolo ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) Presenta el desafío de la manipulación y luego instruye a los alumnos sobre cómo pedirle la explicación detallada a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien! Ahora que todos están listos, vamos al A.I. GYM. Equipos, hasta ahora hemos hecho al XGO un experto en moverse por el mundo. Pero, ¿qué pasa si queremos que haga algo en el mundo? ¿Como recoger un objeto, presionar un botón o dar la pata? Para eso, el XGO tiene una herramienta especial: su brazo robótico.</p>
+                                <p class="dialogue assistant">Para que la explicación sea personalizada para ustedes, escriban en el chat el siguiente comando: 'Mi perfil es [escribe aquí tu perfil] y quiero que me enseñes sobre el brazo robótico, la cinemática y los comandos de manipulación'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Monitoreo de Interacción y Síntesis ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositivas 4, 5 y 6) Monitorea a los alumnos mientras interactúan con Xolo y resume los puntos clave que están aprendiendo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Genial! Xolo les está explicando que el brazo es como un 'robot dentro de un robot'. Les está introduciendo a conceptos muy importantes como 'Cinemática', que es cómo la IA calcula los movimientos del brazo, y 'Espacio de Trabajo', que es el área que el brazo puede alcanzar.</p>
+                                <p class="dialogue assistant">Fíjense que les está mostrando los nuevos comandos: `arm_move_group` para mover el brazo a coordenadas X, Y, Z, y los comandos `claw_open` y `claw_close` para la pinza.</p>
+                                <p class="dialogue assistant">Si algo no queda claro, ¡recuerden que pueden preguntarle directamente a Xolo! Prueben con <br><strong>'¿Qué significa 'espacio de trabajo'?'</strong><br><strong>'¿Qué representan las coordenadas X, Y y Z?'</strong><br><strong>'¿Para qué sirve el TIEMPO en los comandos del brazo?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3 VIBE CODING (Exploración Individual de Tareas de Alcance) ⏰ 14 minutos</h2>
+                <p><strong>Propósito</strong> Permitir a los estudiantes diseñar creativamente secuencias de movimiento del brazo y obtener el código Python correspondiente.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción del Profesor ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) Motiva a los alumnos a convertirse en "Operadores de Brazo Robótico" y a describir sus ideas a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien, con esos conceptos claros, a diseñar! Ahora, cada uno de ustedes será un 'Operador de Brazo Robótico'. Piensen en una secuencia de movimientos para que el brazo haga algo simple. Descríbanle la 'vibe' de la tarea a Xolo. Si no se les ocurre nada, ¡no hay problema! Escriban en el chat con Xolo el comando exacto: 'Exploremos ideas juntos'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ejemplos de Interacción ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositiva 8) Muestra ejemplos de cómo una vibe se traduce en código para que los estudiantes entiendan el proceso.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Basado en esa petición, Xolo podría generar un código para ejecutar su idea. ¡Fíjense bien en cómo se estructura!</p>
+                                <p class="dialogue assistant">Para una vibe como "quiero que el robot levante el brazo, lo estire hacia adelante, y luego lo baje", Xolo generaría este código:</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;"># Secuencia: Saludo con el Brazo
+import xgo, time
+# Levantar el brazo
+xgo.arm_move_group({'x': 100, 'y': 100, 'z': 0}, 1000)
+time.sleep(1)
+# Bajar el brazo a una posición intermedia
+xgo.arm_move_group({'x': 100, 'y': 50, 'z': 0}, 1000)
+time.sleep(1)
+# Volver al reposo
+xgo.arm_reset(1000)</pre>
+                                <p class="dialogue assistant">Y para una vibe como "quiero que el brazo se prepare, se estire para agarrar algo que está en el suelo enfrente, cierre la pinza y lo levante", este sería el código:</p>
+                                <pre class="dialogue assistant" style="color: #d32f2f;"># Secuencia: Agarrar y Levantar
+import xgo, time
+# 1. Abrir la pinza en preparación
+xgo.claw_open(1000)
+time.sleep(1)
+# 2. Bajar y estirar el brazo hacia el objeto
+xgo.arm_move_group({'x': 120, 'y': 20, 'z': 0}, 1000)
+time.sleep(1)
+# 3. Cerrar la pinza para agarrar
+xgo.claw_close(1000)
+time.sleep(1)
+# 4. Levantar el objeto
+xgo.arm_move_group({'x': 100, 'y': 100, 'z': 0}, 1000)</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4 ANÁLISIS DE CÓDIGO Y PLANIFICACIÓN DE PRUEBAS ⏰ 7 minutos</h2>
+                <p><strong>Propósito</strong> Fomentar la colaboración, el análisis de código y la creación de un plan de pruebas estructurado para la tarea de manipulación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Análisis en Equipo ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 9) Organiza a los estudiantes en equipos para que compartan y analicen sus fragmentos de código.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente trabajo! Ahora que ya tienen sus ideas, reúnanse en sus equipos de 4 integrantes. Compartan sus secuencias de manipulación y analicen el código. Miren el comando `arm_move_group`. ¿Qué representan las letras X, Y, Z? ¿Qué pasa si ponemos un valor de Y negativo? ¿Qué pasaría si intentamos alcanzar un objeto que está muy, muy lejos?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Planificación de Pruebas (Actividad Clave) ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 10) Guía a los equipos para que creen su entregable: un "Plan de Manipulación" ordenado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genial! Ahora tienen las bases para la manipulación. Como equipo, creen un 'Plan de Manipulación' para la próxima sesión. Su objetivo será recoger un objeto real. Recuerden alternar quién programa para que todos tengan la oportunidad de calibrar el robot. Aquí tienen un ejemplo de plan:</p>
+                                <ul>
+                                    <li><p class="dialogue assistant"><strong>Prueba 1: "Exploración del Espacio de Trabajo".</strong> Probar diferentes valores de X, Y, Z para ver hasta dónde llega el brazo. Anotar las coordenadas máximas y mínimas.</p></li>
+                                    <li><p class="dialogue assistant"><strong>Prueba 2: "Secuencia de Agarre".</strong> Usar el código base. Colocar un objeto pequeño (ej. un cubo de LEGO) en una posición fija frente al robot.</p></li>
+                                    <li><p class="dialogue assistant"><strong>Prueba 3 (Desafío de Precisión):</strong> ¿Qué coordenadas exactas de X, Y, Z se necesitan para agarrar el objeto? Planificar un proceso de "prueba y error" para encontrar los números correctos.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5 GNIUS STORM (Cierre de Sesión A) ⏰ 5 minutos</h2>
+                <p><strong>Propósito</strong> Realizar un cierre dinámico donde los equipos comparten sus planes de manipulación y se genera expectación para la sesión práctica.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Compartir Planes ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 11) Pide a un portavoz de cada equipo que comparta brevemente su plan.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien, equipos! Para cerrar, un portavoz de cada equipo va a compartir el nombre de su 'Plan de Manipulación' y el objeto que planean intentar recoger en la próxima sesión. ¡Queremos escuchar esos planes!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Cierre y Próximos Pasos ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 12) Concluye la sesión, validando el trabajo de los estudiantes y adelantando la emoción de la siguiente sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelentes planes! Han diseñado los pasos lógicos para que un robot interactúe físicamente con su entorno. En la próxima sesión, se enfrentarán al desafío de la precisión en el mundo real. ¿Lograrán que su XGO recoja el objeto al primer intento? ¡Prepárense para calibrar las coordenadas de su brazo robótico!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
